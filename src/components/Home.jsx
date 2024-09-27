@@ -1,12 +1,12 @@
 import React from 'react';
 import Slideshow from './SlideShow';
-// import CardSection from './CardSection';
+import CardSection from './CradSection';
 
 const Home = () => {
   return (
     <div>
       <Slideshow />
-      {/* <CardSection/> */}
+      <CardSection/> 
       <div className="index-content">
         <h2>Bem-vindo ao CarDrive Eletric</h2>
         <p>

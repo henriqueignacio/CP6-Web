@@ -8,7 +8,7 @@ body {
   }
   
   h1, h2, h3 {
-    color: #000000;
+    color: #5c5858;
   }
   
   .container {
@@ -19,14 +19,14 @@ body {
   }
   
   header {
-    background-color: #ff0000;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
   }
   
   header nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 0 15px;
     text-decoration: none;
   }
@@ -37,11 +37,11 @@ body {
   
   /* Footer Styles */
   footer {
-    background-color: #ff0000;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-    /*position:  ; .................................................................................. */
+    position: relative ; 
     bottom: 0;
     width: 100%;
   }
@@ -128,3 +128,61 @@ body {
     height: auto;
     border-radius: 10px;
   }
+
+  /* Card Section */
+#card-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap; /* Adiciona suporte para cards flexíveis em diferentes resoluções */
+}
+
+#card-section .card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 30%; /* Ajuste a largura para ser mais flexível em diferentes tamanhos de tela */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px; /* Adiciona espaço entre os cards */
+  border-radius: 10px; /* Adiciona cantos arredondados */
+  transition: transform 0.2s ease-in-out; /* Efeito de hover */
+}
+
+#card-section .card:hover {
+  transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
+
+#card-section .card h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+#card-section .card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+#card-section .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px; /* Adiciona espaço abaixo da imagem */
+}
+
+#card-section .card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+#card-section .card button:hover {
+  background-color: #0056b3; /* Muda a cor do botão ao passar o mouse */
+}
