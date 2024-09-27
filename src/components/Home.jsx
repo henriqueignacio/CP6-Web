@@ -1,6 +1,6 @@
 import React from 'react';
 import Slideshow from './SlideShow';
-import CardSection from './CradSection';
+import CardSection from './CardSection';
 
 const Home = () => {
   return (
