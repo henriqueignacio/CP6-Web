@@ -7,6 +7,8 @@ import Login from './routes/Login';
 import Produtos from './components/Produtos';
 import CadastroProduto from './components/CadastroProduto';
 import Error from './routes/Error';
+import Sobre from './components/Sobre'
+
 
 
 function App() {
@@ -21,7 +23,8 @@ function App() {
       <Route path="/produtos" element={<Produtos />} />
       <Route path="/cadastro" element={<CadastroProduto />} />
       <Route path="*" element={<Error />} />
-      
+      <Route path="/sobre" element={<Sobre />} />
+
       </Routes>
       <Footer/>
       
