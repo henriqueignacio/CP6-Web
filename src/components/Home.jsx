@@ -10,8 +10,8 @@ const Home = () => {
       <div className="index-content">
         <h2>Bem-vindo ao CarDrive Eletric</h2>
         <p>
-          A Formula E é a categoria de automobilismo totalmente elétrica, trazendo inovações para o futuro
-          das corridas e da mobilidade sustentável.
+          A CarDrive Eletric é uma loja de carros totalmente elétrica, trazendo inovações e novas tecnologias para o futuro
+          dos carros. Com a missão de tornar a automóvel e da mobilidade sustentável.
         </p>
       </div>
     </div>

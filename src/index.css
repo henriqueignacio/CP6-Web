@@ -63,12 +63,12 @@ body {
   }
   
   button:hover, .btn:hover {
-    background-color: #ff0000;
+    background-color: #000000;
   }
   
   /* Links */
   a {
-    color: #ff0000;
+    color: #000000;
     text-decoration: none;
   }
   
@@ -185,4 +185,119 @@ body {
 
 #card-section .card button:hover {
   background-color: #0056b3; /* Muda a cor do botão ao passar o mouse */
+}
+
+ /* Container geral */
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f5f5f5;
+}
+
+/* Container de login */
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-login {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Inputs */
+.w-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-form {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-form:focus {
+  border-color: #ff0000;
+}
+
+.w-input span {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form-btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Links úteis */
+.uteis {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.uteis li {
+  margin-bottom: 10px;
+}
+
+.uteis a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.uteis a:hover {
+  color: #ff0000;
+}
+
+.texto1 {
+  font-size: 14px;
+  color: #666;
 }
