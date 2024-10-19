@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #182e75;
   }
   
   h1, h2, h3 {
@@ -19,7 +19,7 @@ body {
   }
   
   header {
-    background-color: #000000;
+    background-color: rgb(43, 137, 226);
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ body {
   
   /* Footer Styles */
   footer {
-    background-color: #000000;
+    background-color: rgb(43, 137, 226);
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
@@ -346,77 +346,6 @@ body {
   color: #666;
 }
 
-/* CadastroProduto */
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1, h2 {
-  text-align: center;
-  color: #333;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 60px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 15px;
-}
-
-button {
-  background-color: #000000;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #ff0000;
-}
-
-#card-section {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  flex-wrap: wrap;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.card {
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 15px;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-
 /* src/components/Sobre.css */
 
 .sobre-container {
@@ -470,4 +399,7 @@ button:hover {
 .sobre-container h2 {
   font-family: 'Helvetica', sans-serif;
 }
+
+
+ 
 

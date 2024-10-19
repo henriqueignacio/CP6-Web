@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
+
 const CardSection = () => {
   const navigate = useNavigate();
 
@@ -11,25 +13,25 @@ const CardSection = () => {
   return (
     <section id="card-section">
       <div className="card">
-        <img src="./assets/carroeletrico3.jpg" alt="BMW" />
-        <h3>BMW i4</h3>
-        <p>R$ 275.000 a R$ 325.000.</p>
-        <p>BMW</p>
+        <img src="./assets/brinquedos1.webp" alt="BMW" />
+        <h3>Mega City Garagem Pista De Carrinhos Estacionamento 4 Carros</h3>
+        <p>R$ 199,90</p>
+        
         
         <button onClick={() => handleViewProduct('produtos')}>Ver Produto</button>
       </div>
       <div className="card">
-        <img src="./assets/carroeletrico1.jpg" alt="Porsche" />
-        <h3>Porsche Taycan</h3>
-        <p>partir de R$ 630.000,00.</p>
-        <p>Porsche</p>
+        <img src="./assets/brinquedos2.webp" alt="Porsche" />
+        <h3>Brinquedo Eletrônico Infantil Shooting Duck (Acertar Pato)</h3>
+        <p>R$ 189,00</p>
+        
         <button onClick={() => handleViewProduct('produtos')}>Ver Produto</button>
       </div>
       <div className="card">
-        <img src="./assets/carroeletrico4.jpg" alt="Mahindra M10Electro" />
-        <h3>Tesla Model X</h3>
-        <p>R$ 900.000,00 a R$ 1.100.000,00</p>
-        <p>Tesla</p>
+        <img src="./assets/brinquedos3.webp" alt="Mahindra M10Electro" />
+        <h3>Brinquedo Infantil Lançador de Orbeez Realista M416 Elétrica</h3>
+        <p>R$ 450,00</p>
+       
         <button onClick={() => handleViewProduct('produtos')}>Ver Produto</button>
       </div>
     </section>

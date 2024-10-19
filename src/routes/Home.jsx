@@ -8,10 +8,9 @@ const Home = () => {
       <Slideshow />
       <CardSection/> 
       <div className="index-content">
-        <h2>Bem-vindo ao CarDrive Eletric</h2>
+        <h2>Bem-vindo a Brinquedos Store</h2>
         <p>
-          A CarDrive Eletric é uma loja de carros totalmente elétrica, trazendo inovações e novas tecnologias para o futuro
-          dos carros. Com a missão de tornar a automóvel e da mobilidade sustentável.
+          A Brinquedos Store é uma loja de brinquedos variados para todas as idades, trazendo inovações e novos produtos para o mercado, assim trazendo alegria e diversão para todos!
         </p>
       </div>
     </div>
